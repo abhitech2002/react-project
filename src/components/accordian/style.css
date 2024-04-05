@@ -5,6 +5,17 @@
     justify-content: center;
     align-items: center;
     margin-top: 2px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.wrapper button{
+    padding: 10px 20px;
+    background: #000;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .accordian {
