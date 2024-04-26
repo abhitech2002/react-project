@@ -52,7 +52,7 @@ export default function Accordian() {
                             } */}
                             {
                                 selected === dataItem.id || multiple.indexOf(dataItem.id) !== -1 ? (
-                                    <div>{dataItem.answer}</div>
+                                    <div className="content">{dataItem.answer}</div>
                                 ): null
                             }
                         </div>)
